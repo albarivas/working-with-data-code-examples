@@ -1,0 +1,11 @@
+<template>
+  <lightning-card title="Record Form (Create and Populate on Submit)">
+    <lightning-record-form
+      object-api-name={objectApiName}
+      fields={fields}
+      onsubmit={handleSubmit}
+      onsuccess={handleSuccess}
+    >
+    </lightning-record-form>
+  </lightning-card>
+</template>

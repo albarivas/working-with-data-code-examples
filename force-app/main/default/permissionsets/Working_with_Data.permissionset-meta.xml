@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
     <applicationVisibilities>
         <application>Working_with_Data_in_LWC</application>
@@ -8,6 +8,14 @@
     <label>Working with Data</label>
     <tabSettings>
         <tab>Working_with_Data</tab>
+        <visibility>Visible</visibility>
+    </tabSettings>
+    <tabSettings>
+        <tab>record_view_edit_form</tab>
+        <visibility>Visible</visibility>
+    </tabSettings>
+    <tabSettings>
+        <tab>standard-Account</tab>
         <visibility>Visible</visibility>
     </tabSettings>
 </PermissionSet>

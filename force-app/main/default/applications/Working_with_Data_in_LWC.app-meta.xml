@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
     <brand>
         <headerColor>#0070D2</headerColor>
@@ -11,5 +11,7 @@
     <label>Working with Data in LWC</label>
     <navType>Standard</navType>
     <tabs>Working_with_Data</tabs>
+    <tabs>record_view_edit_form</tabs>
+    <tabs>standard-Account</tabs>
     <uiType>Lightning</uiType>
 </CustomApplication>
