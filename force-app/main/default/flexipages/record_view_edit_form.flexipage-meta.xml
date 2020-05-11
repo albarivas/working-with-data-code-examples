@@ -23,6 +23,9 @@
         <componentInstances>
             <componentName>recordEditFormCreateReset</componentName>
         </componentInstances>
+        <componentInstances>
+            <componentName>recordEditFormCreateCustomError</componentName>
+        </componentInstances>
         <name>region2</name>
         <type>Region</type>
     </flexiPageRegions>
