@@ -1,0 +1,20 @@
+<template>
+  <lightning-card title="Apex create record (Invoke imperatively)">
+    <lightning-button
+      class="slds-align_absolute-center"
+      label="Create Account"
+      onclick={handleButtonClick}
+    ></lightning-button>
+    <template if:true={accounts.data}>
+        <lightning-datatable
+          key-field="Id"
+          data={accounts.data}
+          columns={columns}
+        >
+        </lightning-datatable>
+      </template>
+      <template if:true={errors}>
+        <p>{errors}</p>
+      </template>
+  </lightning-card>
+</template>

@@ -13,6 +13,7 @@
     <tabs>record_form</tabs>
     <tabs>record_view_edit_form</tabs>
     <tabs>lds</tabs>
+    <tabs>apex</tabs>
     <tabs>standard-Account</tabs>
     <uiType>Lightning</uiType>
 </CustomApplication>

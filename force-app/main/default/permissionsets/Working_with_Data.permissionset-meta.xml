@@ -14,8 +14,12 @@
         <tab>record_view_edit_form</tab>
         <visibility>Visible</visibility>
     </tabSettings>
-     <tabSettings>
+    <tabSettings>
         <tab>lds</tab>
+        <visibility>Visible</visibility>
+    </tabSettings>
+    <tabSettings>
+        <tab>apex</tab>
         <visibility>Visible</visibility>
     </tabSettings>
     <tabSettings>

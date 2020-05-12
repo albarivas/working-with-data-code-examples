@@ -15,7 +15,7 @@ const COLUMNS = [
   { label: "Industry", fieldName: INDUSTRY_FIELD.fieldApiName, type: "text" }
 ];
 
-export default class AccountList extends LightningElement {
+export default class ApexWireProperty extends LightningElement {
   columns = COLUMNS;
 
   @wire(getAccounts)
