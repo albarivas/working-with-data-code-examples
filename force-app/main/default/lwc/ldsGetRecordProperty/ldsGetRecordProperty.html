@@ -1,14 +1,14 @@
 <template>
-  <lightning-card title="LDS getRecord (Wire Property)">
+  <lightning-card title="LDS getRecord wire adapter (Wire a Property)">
     <template if:true={record.data}>
-        <div class="slds-var-p-around_small">
+      <div class="slds-var-p-around_small">
         <p>Name: {nameFieldValue}</p>
         <p>Annual Revenue: {revenueFieldValue}</p>
         <p>Industry: {industryFieldValue}</p>
-        </div>
+      </div>
     </template>
     <template if:true={record.error}>
-        <c-error-panel errors={record.error}> </c-error-panel>
+      <c-error-panel errors={record.error}> </c-error-panel>
     </template>
   </lightning-card>
 </template>

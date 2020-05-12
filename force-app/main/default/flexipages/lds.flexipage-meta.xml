@@ -7,20 +7,22 @@
         <componentInstances>
             <componentName>ldsGetRecordFunction</componentName>
         </componentInstances>
-        <name>region1</name>
+        <name>column1</name>
         <type>Region</type>
     </flexiPageRegions>
     <flexiPageRegions>
-        <name>region2</name>
-        <type>Region</type>
-    </flexiPageRegions>
-    <flexiPageRegions>
-        <name>region3</name>
+        <componentInstances>
+            <componentName>ldsCreateRecord</componentName>
+        </componentInstances>
+        <componentInstances>
+            <componentName>ldsUpdateRecord</componentName>
+        </componentInstances>
+        <name>column2</name>
         <type>Region</type>
     </flexiPageRegions>
     <masterLabel>LDS</masterLabel>
     <template>
-        <name>flexipage:appHomeTemplateThreeColumns</name>
+        <name>flexipage:appHomeTemplateTwoColumns</name>
     </template>
     <type>AppPage</type>
 </FlexiPage>

@@ -1,0 +1,19 @@
+<template>
+  <lightning-card title="LDS updateRecord Function (Invoke imperatively)">
+    <div class="slds-var-p-around_small">
+      <lightning-input
+        type="number"
+        formatter="currency"
+        step="1"
+        value={newAnnualRevenue}
+        onchange={handleInputChange}
+        label="New annual revenue"
+      ></lightning-input>
+    </div>
+    <lightning-button
+      class="slds-align_absolute-center"
+      label="Update Account"
+      onclick={handleButtonClick}
+    ></lightning-button>
+  </lightning-card>
+</template>
