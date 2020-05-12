@@ -10,8 +10,9 @@
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
     <label>Working with Data in LWC</label>
     <navType>Standard</navType>
-    <tabs>Working_with_Data</tabs>
+    <tabs>record_form</tabs>
     <tabs>record_view_edit_form</tabs>
+    <tabs>lds</tabs>
     <tabs>standard-Account</tabs>
     <uiType>Lightning</uiType>
 </CustomApplication>

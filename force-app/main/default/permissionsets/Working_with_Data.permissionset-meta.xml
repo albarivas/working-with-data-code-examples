@@ -7,11 +7,15 @@
     <hasActivationRequired>false</hasActivationRequired>
     <label>Working with Data</label>
     <tabSettings>
-        <tab>Working_with_Data</tab>
+        <tab>record_form</tab>
         <visibility>Visible</visibility>
     </tabSettings>
     <tabSettings>
         <tab>record_view_edit_form</tab>
+        <visibility>Visible</visibility>
+    </tabSettings>
+     <tabSettings>
+        <tab>lds</tab>
         <visibility>Visible</visibility>
     </tabSettings>
     <tabSettings>

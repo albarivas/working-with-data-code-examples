@@ -19,11 +19,11 @@ export function reduceErrors(errors) {
           return error.body.map(e => e.message);
         }
         // UI API DML, Apex and network errors
-        else if (error.body && typeof error.body.message === 'string') {
+        else if (error.body && typeof error.body.message === "string") {
           return error.body.message;
         }
         // JS errors
-        else if (typeof error.message === 'string') {
+        else if (typeof error.message === "string") {
           return error.message;
         }
         // Unknown error shape so try HTTP status text
