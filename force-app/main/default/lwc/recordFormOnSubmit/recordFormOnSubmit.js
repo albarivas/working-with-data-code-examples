@@ -13,14 +13,14 @@ export default class RecordFormOnSubmit extends LightningElement {
   handleSubmit(event) {
     event.preventDefault();
     const fields = event.detail.fields;
-    fields.Description = "Description set automatically on submit.";
+    fields.Industry = "Food & Beverage";
     this.template.querySelector("lightning-record-form").submit(fields);
   }
 
   handleSuccess(event) {
     const toastEvent = new ShowToastEvent({
       title: "Account created",
-      message: "Record ID: " + event.detail.id,
+      message: "Industry: " + event.detail.fields.Industry,
       variant: "success"
     });
     this.dispatchEvent(toastEvent);
