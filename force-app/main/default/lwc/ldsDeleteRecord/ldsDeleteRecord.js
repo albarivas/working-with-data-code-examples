@@ -19,7 +19,7 @@ export default class LdsDeleteRecord extends LightningElement {
       .catch(error => {
         const toastEvent = new ShowToastEvent({
           title: "Error deleting account",
-          message: "Record ID: " + reduceErrors(error).concat(","),
+          message: "Error: " + reduceErrors(error).join(","),
           variant: "error"
         });
         this.dispatchEvent(toastEvent);

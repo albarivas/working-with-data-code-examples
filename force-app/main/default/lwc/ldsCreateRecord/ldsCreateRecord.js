@@ -30,7 +30,7 @@ export default class LdsCreateRecord extends LightningElement {
       .catch(error => {
         const toastEvent = new ShowToastEvent({
           title: "Error creating account",
-          message: "Record ID: " + reduceErrors(error).concat(","),
+          message: "Error: " + reduceErrors(error).join(","),
           variant: "error"
         });
         this.dispatchEvent(toastEvent);

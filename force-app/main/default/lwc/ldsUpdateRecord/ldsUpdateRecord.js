@@ -40,7 +40,7 @@ export default class LdsUpdateRecord extends LightningElement {
         .catch(error => {
           const toastEvent = new ShowToastEvent({
             title: "Error updating account",
-            message: "Record ID: " + reduceErrors(error).concat(","),
+            message: "Error: " + reduceErrors(error).join(","),
             variant: "error"
           });
           this.dispatchEvent(toastEvent);
