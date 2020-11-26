@@ -1,5 +1,11 @@
 # Code Examples that show how to work with Salesforce Data in LWC
 
+1. Clone the repo:
+
+   ```
+   git clone git@github.com:albarivas/working-with-data-code-examples.git
+   ```
+
 1. If you haven't already done so, authorize with your hub org and provide it with an alias (**myhuborg** in the command below):
 
    ```
