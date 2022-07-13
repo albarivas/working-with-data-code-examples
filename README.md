@@ -36,4 +36,4 @@
    sfdx force:org:open
    ```
 
-1. Find an Account in your org and do a search & replace on the code, as the account Id is hardcoded to "0010U000011boGMQAY". Then push again. 
+1. Find an Account in your org and do a search & replace on the code, as the account Id is hardcoded to "0012D00000SdQ2tQAF". Then push again.

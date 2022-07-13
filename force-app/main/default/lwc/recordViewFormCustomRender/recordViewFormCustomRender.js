@@ -7,7 +7,7 @@ import INDUSTRY_FIELD from "@salesforce/schema/Account.Industry";
 
 export default class RecordViewFormCustomRender extends LightningElement {
   objectApiName = ACCOUNT_OBJECT;
-  recordId = "0010U000011boGMQAY";
+  recordId = "0012D00000SdQ2tQAF";
 
   @wire(getRecord, {
     recordId: "$recordId",

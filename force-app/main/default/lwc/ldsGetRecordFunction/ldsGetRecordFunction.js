@@ -5,7 +5,7 @@ import REVENUE_FIELD from "@salesforce/schema/Account.AnnualRevenue";
 import INDUSTRY_FIELD from "@salesforce/schema/Account.Industry";
 
 export default class LdsGetRecordFunction extends LightningElement {
-  recordId = "0010U000011boGMQAY";
+  recordId = "0012D00000SdQ2tQAF";
   data;
   error;
 

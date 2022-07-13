@@ -10,7 +10,7 @@ import { reduceErrors } from "c/ldsUtils";
 import REVENUE_FIELD from "@salesforce/schema/Account.AnnualRevenue";
 
 export default class LdsUpdateRecord extends LightningElement {
-  recordId = "0010U000011boGMQAY";
+  recordId = "0012D00000SdQ2tQAF";
   newAnnualRevenue;
 
   @wire(getRecord, {
@@ -19,7 +19,7 @@ export default class LdsUpdateRecord extends LightningElement {
   })
   record;
 
-  handleInputChange(event){
+  handleInputChange(event) {
     this.newAnnualRevenue = event.detail.value;
   }
 
@@ -29,15 +29,16 @@ export default class LdsUpdateRecord extends LightningElement {
       recordInput.fields[REVENUE_FIELD.fieldApiName] = this.newAnnualRevenue;
 
       updateRecord(recordInput)
-        .then(data => {
+        .then((data) => {
           const toastEvent = new ShowToastEvent({
             title: "Account updated",
-            message: "New annual revenue: " + getFieldValue(data, REVENUE_FIELD),
+            message:
+              "New annual revenue: " + getFieldValue(data, REVENUE_FIELD),
             variant: "success"
           });
           this.dispatchEvent(toastEvent);
         })
-        .catch(error => {
+        .catch((error) => {
           const toastEvent = new ShowToastEvent({
             title: "Error updating account",
             message: "Error: " + reduceErrors(error).join(","),

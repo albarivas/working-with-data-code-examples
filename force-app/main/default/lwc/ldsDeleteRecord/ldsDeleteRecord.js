@@ -4,11 +4,11 @@ import { ShowToastEvent } from "lightning/platformShowToastEvent";
 import { reduceErrors } from "c/ldsUtils";
 
 export default class LdsDeleteRecord extends LightningElement {
-  recordId = "0010U000011boGMQAY";
+  recordId = "0012D00000SdQ2tQAF";
 
   handleButtonClick() {
     deleteRecord(this.recordId)
-      .then(data => {
+      .then((data) => {
         const toastEvent = new ShowToastEvent({
           title: "Account deleted",
           message: "Record ID: " + data.id,
@@ -16,7 +16,7 @@ export default class LdsDeleteRecord extends LightningElement {
         });
         this.dispatchEvent(toastEvent);
       })
-      .catch(error => {
+      .catch((error) => {
         const toastEvent = new ShowToastEvent({
           title: "Error deleting account",
           message: "Error: " + reduceErrors(error).join(","),
