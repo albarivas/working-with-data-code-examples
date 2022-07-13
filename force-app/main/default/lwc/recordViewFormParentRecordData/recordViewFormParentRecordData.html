@@ -1,21 +1,24 @@
 <template>
   <lightning-card title="Record View Form (Parent Record Data)">
-    <lightning-record-view-form
-      record-id={recordId}
-      object-api-name={objectApiName}
-    >
-      <lightning-output-field field-name={nameField}> </lightning-output-field>
-      <lightning-output-field field-name={revenueField}>
-      </lightning-output-field>
-      <lightning-output-field field-name={industryField}>
-      </lightning-output-field>
-      <div class="slds-form-element slds-form-element_stacked">
-        <span class="slds-form-element__label">Owner Name</span>
-        <div class="slds-form-element__control">
-          <lightning-formatted-text value={ownerNameFieldValue}>
-          </lightning-formatted-text>
+    <div class="slds-var-m-around_x-small">
+      <lightning-record-view-form
+        record-id={recordId}
+        object-api-name={objectApiName}
+      >
+        <lightning-output-field field-name={nameField}>
+        </lightning-output-field>
+        <lightning-output-field field-name={revenueField}>
+        </lightning-output-field>
+        <lightning-output-field field-name={industryField}>
+        </lightning-output-field>
+        <div class="slds-form-element slds-form-element_stacked">
+          <span class="slds-form-element__label">Owner Name</span>
+          <div class="slds-form-element__control">
+            <lightning-formatted-text value={ownerNameFieldValue}>
+            </lightning-formatted-text>
+          </div>
         </div>
-      </div>
-    </lightning-record-view-form>
+      </lightning-record-view-form>
+    </div>
   </lightning-card>
 </template>

@@ -8,6 +8,7 @@
     <formFactors>Large</formFactors>
     <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
     <label>Working with Data in LWC</label>
     <navType>Standard</navType>
     <tabs>record_form</tabs>
@@ -15,5 +16,7 @@
     <tabs>lds</tabs>
     <tabs>apex</tabs>
     <tabs>standard-Account</tabs>
+    <tabs>standard-Contact</tabs>
+    <tabs>standard-Opportunity</tabs>
     <uiType>Lightning</uiType>
 </CustomApplication>

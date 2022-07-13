@@ -19,7 +19,7 @@ export default class LdsCreateRecord extends LightningElement {
     };
 
     createRecord(recordInput)
-      .then(data => {
+      .then((data) => {
         const toastEvent = new ShowToastEvent({
           title: "Account created",
           message: "Record ID: " + data.id,
@@ -27,7 +27,7 @@ export default class LdsCreateRecord extends LightningElement {
         });
         this.dispatchEvent(toastEvent);
       })
-      .catch(error => {
+      .catch((error) => {
         const toastEvent = new ShowToastEvent({
           title: "Error creating account",
           message: "Error: " + reduceErrors(error).join(","),

@@ -30,7 +30,7 @@ export default class ApexImperative extends LightningElement {
 
   handleButtonClick() {
     createAccount()
-      .then(data => {
+      .then((data) => {
         const toastEvent = new ShowToastEvent({
           title: "Account created",
           message: "Record ID: " + data.Id,
@@ -39,7 +39,7 @@ export default class ApexImperative extends LightningElement {
         this.dispatchEvent(toastEvent);
         refreshApex(this.accounts);
       })
-      .catch(error => {
+      .catch((error) => {
         const toastEvent = new ShowToastEvent({
           title: "Error creating account",
           message: "Error: " + reduceErrors(error).join(","),

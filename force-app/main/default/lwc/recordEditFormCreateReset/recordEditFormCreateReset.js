@@ -14,7 +14,7 @@ export default class RecordEditCreateReset extends LightningElement {
   handleReset() {
     const inputFields = this.template.querySelectorAll("lightning-input-field");
     if (inputFields) {
-      inputFields.forEach(field => {
+      inputFields.forEach((field) => {
         field.reset();
       });
     }

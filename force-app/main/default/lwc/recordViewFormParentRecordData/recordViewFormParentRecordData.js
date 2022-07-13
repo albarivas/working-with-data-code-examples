@@ -11,7 +11,7 @@ export default class RecordViewFormParentRecordData extends LightningElement {
   nameField = NAME_FIELD;
   revenueField = REVENUE_FIELD;
   industryField = INDUSTRY_FIELD;
-  recordId = "0012D00000SdQ2tQAF";
+  recordId = "0011700001Ut0BOAAZ";
 
   @wire(getRecord, {
     recordId: "$recordId",

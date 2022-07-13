@@ -1,16 +1,28 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <FlexiPage xmlns="http://soap.sforce.com/2006/04/metadata">
     <flexiPageRegions>
-        <componentInstances>
-            <componentName>apexImperative</componentName>
-        </componentInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentName>apexImperative</componentName>
+                <identifier>apexImperative</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentName>apexCreateMixedRecords</componentName>
+                <identifier>c_apexCreateMixedRecords</identifier>
+            </componentInstance>
+        </itemInstances>
         <name>column1</name>
         <type>Region</type>
     </flexiPageRegions>
     <flexiPageRegions>
-        <componentInstances>
-            <componentName>apexWireProperty</componentName>
-        </componentInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentName>apexWireProperty</componentName>
+                <identifier>apexWireProperty</identifier>
+            </componentInstance>
+        </itemInstances>
         <name>column2</name>
         <type>Region</type>
     </flexiPageRegions>

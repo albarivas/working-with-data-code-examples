@@ -1,15 +1,17 @@
 <template>
   <lightning-card title="Apex read records (Wire a property)">
-    <template if:true={accounts.data}>
-      <lightning-datatable
-        key-field="Id"
-        data={accounts.data}
-        columns={columns}
-      >
-      </lightning-datatable>
-    </template>
-    <template if:true={errors}>
-      <p>{errors}</p>
-    </template>
+    <div class="slds-var-m-around_x-small">
+      <template if:true={accounts.data}>
+        <lightning-datatable
+          key-field="Id"
+          data={accounts.data}
+          columns={columns}
+        >
+        </lightning-datatable>
+      </template>
+      <template if:true={errors}>
+        <p>{errors}</p>
+      </template>
+    </div>
   </lightning-card>
 </template>

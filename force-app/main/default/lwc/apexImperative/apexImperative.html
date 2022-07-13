@@ -1,11 +1,12 @@
 <template>
   <lightning-card title="Apex create record (Invoke imperatively)">
-    <lightning-button
-      class="slds-align_absolute-center"
-      label="Create Account"
-      onclick={handleButtonClick}
-    ></lightning-button>
-    <template if:true={accounts.data}>
+    <div class="slds-var-m-around_x-small">
+      <lightning-button
+        class="slds-align_absolute-center slds-var-m-bottom_small"
+        label="Create Account"
+        onclick={handleButtonClick}
+      ></lightning-button>
+      <template if:true={accounts.data}>
         <lightning-datatable
           key-field="Id"
           data={accounts.data}
@@ -16,5 +17,6 @@
       <template if:true={errors}>
         <p>{errors}</p>
       </template>
+    </div>
   </lightning-card>
 </template>
