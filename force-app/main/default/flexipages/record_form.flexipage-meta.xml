@@ -1,32 +1,50 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <FlexiPage xmlns="http://soap.sforce.com/2006/04/metadata">
     <flexiPageRegions>
-        <componentInstances>
-            <componentName>recordFormReadFields</componentName>
-        </componentInstances>
-        <componentInstances>
-            <componentName>recordFormReadLayout</componentName>
-        </componentInstances>
-        <componentInstances>
-            <componentName>recordFormReadOnly</componentName>
-        </componentInstances>
+        <itemInstances>
+            <componentInstance>
+                <identifier>recordFormReadFields</identifier>
+                <componentName>recordFormReadFields</componentName>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <identifier>recordFormReadLayout</identifier>
+                <componentName>recordFormReadLayout</componentName>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <identifier>recordFormReadOnly</identifier>
+                <componentName>recordFormReadOnly</componentName>
+            </componentInstance>
+        </itemInstances>
         <name>region1</name>
         <type>Region</type>
     </flexiPageRegions>
     <flexiPageRegions>
-        <componentInstances>
-            <componentName>recordFormCreate</componentName>
-        </componentInstances>
-        <componentInstances>
-            <componentName>recordFormOnSubmit</componentName>
-        </componentInstances>
+        <itemInstances>
+            <componentInstance>
+                <identifier>recordFormCreate</identifier>
+                <componentName>recordFormCreate</componentName>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <identifier>recordFormOnSubmit</identifier>
+                <componentName>recordFormOnSubmit</componentName>
+            </componentInstance>
+        </itemInstances>
         <name>region2</name>
         <type>Region</type>
     </flexiPageRegions>
     <flexiPageRegions>
-        <componentInstances>
-            <componentName>recordFormUpdate</componentName>
-        </componentInstances>
+        <itemInstances>
+            <componentInstance>
+                <identifier>recordFormUpdate</identifier>
+                <componentName>recordFormUpdate</componentName>
+            </componentInstance>
+        </itemInstances>
         <name>region3</name>
         <type>Region</type>
     </flexiPageRegions>
