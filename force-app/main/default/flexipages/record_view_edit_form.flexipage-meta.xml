@@ -1,22 +1,22 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <FlexiPage xmlns="http://soap.sforce.com/2006/04/metadata">
     <flexiPageRegions>
         <itemInstances>
             <componentInstance>
-                <identifier>recordViewForm</identifier>
                 <componentName>recordViewForm</componentName>
+                <identifier>recordViewForm</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>
             <componentInstance>
-                <identifier>recordViewFormCustomRender</identifier>
                 <componentName>recordViewFormCustomRender</componentName>
+                <identifier>recordViewFormCustomRender</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>
             <componentInstance>
-                <identifier>recordViewFormParentRecordData</identifier>
                 <componentName>recordViewFormParentRecordData</componentName>
+                <identifier>recordViewFormParentRecordData</identifier>
             </componentInstance>
         </itemInstances>
         <name>region1</name>
@@ -25,26 +25,32 @@
     <flexiPageRegions>
         <itemInstances>
             <componentInstance>
-                <identifier>recordEditFormCreate</identifier>
                 <componentName>recordEditFormCreate</componentName>
+                <identifier>recordEditFormCreate</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>
             <componentInstance>
-                <identifier>recordEditFormCreatePrepopulate</identifier>
                 <componentName>recordEditFormCreatePrepopulate</componentName>
+                <identifier>recordEditFormCreatePrepopulate</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>
             <componentInstance>
-                <identifier>recordEditFormCreateReset</identifier>
                 <componentName>recordEditFormCreateReset</componentName>
+                <identifier>recordEditFormCreateReset</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>
             <componentInstance>
-                <identifier>recordEditFormCreateCustomError</identifier>
                 <componentName>recordEditFormCreateCustomError</componentName>
+                <identifier>recordEditFormCreateCustomError</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentName>recordEditFormCreateMixedRecords</componentName>
+                <identifier>c_recordEditFormCreateMixedRecords</identifier>
             </componentInstance>
         </itemInstances>
         <name>region2</name>
@@ -53,8 +59,8 @@
     <flexiPageRegions>
         <itemInstances>
             <componentInstance>
-                <identifier>recordEditFormUpdate</identifier>
                 <componentName>recordEditFormUpdate</componentName>
+                <identifier>recordEditFormUpdate</identifier>
             </componentInstance>
         </itemInstances>
         <name>region3</name>
